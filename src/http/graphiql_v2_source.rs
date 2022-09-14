@@ -310,13 +310,14 @@ mod tests {
       crossorigin
       src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
     ></script>
-    <link rel="icon" href="https://graphql.org/favicon.ico">
-    <link rel="stylesheet" href="https://unpkg.com/graphiql/graphiql.min.css" />
+    <link crossorigin rel="icon" href="https://graphql.org/favicon.ico">
+    <link crossorigin rel="stylesheet" href="https://unpkg.com/graphiql/graphiql.min.css" />
   </head>
 
   <body>
     <div id="graphiql">Loading...</div>
     <script
+      crossorigin
       src="https://unpkg.com/graphiql/graphiql.min.js"
       type="application/javascript"
     ></script>
